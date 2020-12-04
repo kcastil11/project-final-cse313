@@ -1,0 +1,31 @@
+{
+  "name": "weatherstatus",
+  "version": "1.0.0",
+  "description": "This is my final project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenny Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "raygun": "^0.12.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcastil11/project-final-cse313.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kcastil11/project-final-cse313/issues"
+  },
+  "homepage": "https://github.com/kcastil11/project-final-cse313#readme"
+}
